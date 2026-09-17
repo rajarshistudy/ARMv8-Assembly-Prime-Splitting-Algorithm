@@ -1,7 +1,5 @@
 # ARMv8-Assembly-Prime-Splitting-Algorithm
 
-# ARMv8 Assembly — Prime-Splitting Algorithm
-
 A complete implementation of a prime-splitting algorithm in ARMv8 Assembly, 
 written and debugged as part of ECE 331 Systems Programming at UMass Amherst. 
 The program takes an input array of 64-bit integers and distributes each value 
