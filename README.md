@@ -103,7 +103,7 @@ Set at `main.c:53`, immediately before the function call. Captured register
 state confirms all three arrays are loaded with their initial values and 
 base addresses are correctly set in X0–X3.
 
-*(Screenshot 1 here)*
+<img width="828" height="543" alt="Screenshot 2026-09-16 at 10 37 04 PM" src="https://github.com/user-attachments/assets/03a1f322-133d-40f2-9d0d-1290d37f80ba" />
 
 **Breakpoint 2 — After `isPrimeAssembly` returns**
 Set at the first `printf` instruction after the function call in `main.c:63`. 
@@ -112,7 +112,9 @@ Captured register state confirms:
 - `arrayComposite` contains only composite values from the input
 - All callee-saved registers correctly restored to their pre-call values
 
-*(Screenshot 2 here)*
+<img width="817" height="532" alt="image" src="https://github.com/user-attachments/assets/51530b51-668b-4826-bffa-358627310916" />
+
+
 
 ---
 
